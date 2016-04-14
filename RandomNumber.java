@@ -11,7 +11,8 @@ public class RandomNumber {
 	
 
 	 computer =1+(int)(Math.random()*10);
-
+	
+	  RandomNumber ();
 	  return num;
 	}
 }
