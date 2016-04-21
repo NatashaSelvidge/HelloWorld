@@ -16,13 +16,14 @@ System.out.print("A random number between 1 and 10 will be generated");
 int x = myRandomNumber.GetANumber
 number1= input.nextDouble();
 
+
 if (number1==GetANumber)
 System.out.printf("Congrats, you guessed it. The correct number is %f\n",
 randomNum);
 else if (number1 > GetANumber)
-System.out.println("Your number is too large.");
+System.out.println("Your number is too high.");
 else
-System.out.println("Your number is too small.");
+System.out.println("Your number is too low.");
 
 }
 
