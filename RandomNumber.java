@@ -1,30 +1,24 @@
-
-import java.util.Scanner;
-
-public class RandomNumber.java {
-
-public static void main(String[] args) {
-
-Scanner input = new Scanner (System.in);
-
-RandomNumber myRandomNumber = new RandomNumber();
-
-double GetANumber = 1+(Math.random()*10);
-double number1;
-
-System.out.print("A random number between 1 and 10 will be generated");
-int x = myRandomNumber.GetANumber
-number1= input.nextDouble();
-
-
-if (number1==GetANumber)
-System.out.printf("Congrats, you guessed it. The correct number is %f\n",
-randomNum);
-else if (number1 > GetANumber)
-System.out.println("Your number is too high.");
-else
-System.out.println("Your number is too low.");
-
-}
-
+	public class RandomNumber3 {
+		private int num=0;
+		private int max=0;
+		private int min=0;
+		
+		public in GetANumber()
+		{	
+			GetANumber (min, max);
+			return num;	
+	}
+	public void SetLowNumber (int low)
+	{
+			min=low;
+	}
+	public void SetHighNumber (int high)
+	{
+			max=high;
+	}
+	private void GetANumber (int lo,int hi)
+	{
+		num=(int)(Math.floor.(Math.random() * ((hi lo) +1) +lo));
+	}
+	
 }
