@@ -1,18 +1,26 @@
 
-public class RandomNumber {
+import java.util.Scanner;
 
-	public static void main(String[] args) {
+public class GuessGame2 {
 
+public static void main(String[] args) {
 
-		private int num=0;
-		public RandomNumber ();
+Scanner input = new Scanner (System.in);
 
-	Public int GetANumber_Between_1_and_10 ();
-	
+double GetANumber = 1+(Math.random()*10);
+double number1;
 
-	 computer =1+(int)(Math.random()*10);
-	
-	  RandomNumber ();
-	  return num;
-	}
+System.out.print("Please enter a number between 1 and 10: ");
+number1= input.nextDouble();
+
+if (number1==GetANumber)
+System.out.printf("Congrats, you guessed it. The correct number is %f\n",
+randomNum);
+else if (number1 > GetANumber)
+System.out.println("Your number is too large.");
+else
+System.out.println("Your number is too small.");
+
+}
+
 }
